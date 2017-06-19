@@ -4,11 +4,12 @@
   "description": "test project, koa + react",
   "main": "server.js",
   "dependencies": {
-    "babel-register": "^6.24.1",
     "koa": "^2.2.0",
     "koa-send": "^4.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-register": "^6.24.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
